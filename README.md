@@ -34,3 +34,10 @@ CREATE TABLE users(id bigint DEFAULT nextval('users_id_seq') PRIMARY KEY
 輸入完後再用` \d `確認是否新增資料表成功，
 也可以在使用 `\d users` `\d users_id_seq` 確認這兩張資料表的欄位
 確認完成後輸入 `\q` 離開psql介面！
+
+
+### 動手做 ActiveRecord
+
+完成後試著修改 `lib/activerecord_0216002/base.rb`, `lib/activerecord_0216002/relation.rb` 這兩個檔案以通過測試
+
+有問題可以參考先參考[這篇文章](https://5xruby.tw/posts/active_record/)，大家加油:)
